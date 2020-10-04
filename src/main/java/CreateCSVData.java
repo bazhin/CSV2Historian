@@ -38,7 +38,7 @@ public class CreateCSVData {
     }
 
     public static void prepareDataForSmartHistorian(){
-        final SimpleDateFormat SDF = new SimpleDateFormat("YYYY-MM-dd kk:mm:ss.SSS+0300");
+        final SimpleDateFormat SDF = new SimpleDateFormat("yyyy-MM-dd kk:mm:ss.SSS+0300");
         final SimpleDateFormat SDF4FileName = new SimpleDateFormat("ddMMyyyykkmmss");
 
         for(int k = 0; k < 1; k++){// k - number  of files
